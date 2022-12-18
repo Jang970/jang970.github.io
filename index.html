@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justin Ang</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav id="navbar">
+      <ul class="nav-list">
+        <li>
+          <a href="#navbar" class="hover-underline-animation">About</a>
+        </li>
+        <li>
+          <a href="#project-section" class="hover-underline-animation"
+            >Projects</a
+          >
+        </li>
+        <li>
+          <a href="#contact-header" class="hover-underline-animation"
+            >Contacts</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- about me -->
+    <section id="welcome-section">
+      <img id="profile-picture" src="profilepic.jpg" alt="me" />
+      <h1 id="main-title">Hey! I'm Justin Ang</h1>
+      <p id="occupation">Third Year Software Engineering Student</p>
+      <p id="blurb">
+        My name is Justin and I am a Software Engineering student at the
+        University of Auckland. In a span of 2 years, my passion and interest in
+        software development has blossomed and that has prompted me to embark on
+        a journey to expand my skills & knowledge about software development. My
+        dream is having the opportunity to work on products/projects that are
+        helpful to others.
+      </p>
+
+      <h2>Technical Skills</h2>
+      <ul class="skills-list">
+        <li class="javascript">Javascript</li>
+        <li class="java">Java</li>
+        <li class="python">Python</li>
+        <li class="c">C</li>
+      </ul>
+    </section>
+
+    <!-- projects -->
+    <section id="projects">
+      <h1 id="project-section">Projects</h1>
+
+      <div class="projects-display">
+        <!-- will have an anchor element with the project title & languages used -->
+        <!-- <div class="row"> -->
+        <div class="column">
+          <div class="project-tile">
+            <a
+              href="https://github.com/Jang970/JavaScript-To-Do-List"
+              target="_blank"
+              class="title hover-underline-animation"
+              >To Do List</a
+            >
+            <p class="description">
+              A nice & simple To Do List website that allows user to add, edit &
+              delete tasks.
+            </p>
+            <p class="language javascript">Javascript</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="project-tile">
+            <a
+              href="https://github.com/Jang970/Java-Twitter-Followers-As-Graph"
+              target="_blank"
+              class="title hover-underline-animation"
+              >Twitter Followers As Graph</a
+            >
+            <p class="description">
+              Displayed the concept of followers using common data structures.
+            </p>
+            <p class="language java">Java</p>
+          </div>
+        </div>
+        <!-- </div> -->
+        <!-- <div class="row"> -->
+        <div class="column">
+          <div class="project-tile">
+            <a
+              href="https://github.com/Jang970/Python-Sudoku-Solver"
+              target="_blank"
+              class="title hover-underline-animation"
+              >Sudoku Solver</a
+            >
+            <p class="description">
+              Created an algorithm that uses backtracking & recursion to solve a
+              given sudoku puzzle.
+            </p>
+            <p class="language python">Python</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="project-tile">
+            <a
+              href="https://github.com/Jang970/C-Project-Container-Yard"
+              target="_blank"
+              class="title hover-underline-animation"
+              >Container Yard</a
+            >
+            <p class="description">
+              This is a game where the player must get the container/s from the
+              entry to the exit.
+            </p>
+            <p class="language c">C</p>
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+    </section>
+
+    <!-- contacts -->
+    <section id="contacts">
+      <h1 id="contact-header">Contact Me</h1>
+      <div class="contacts-list">
+        <a href="mailto: angjustin11@gmail.com"
+          ><i class="fa fa-envelope" style="font-size: 40px"></i
+        ></a>
+        <a href="https://github.com/Jang970" target="_blank" id="profile-link"
+          ><i class="fa fa-github fa-3x"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/justin-ang-419314244/"
+          target="_blank"
+          ><i class="fa fa-linkedin fa-3x"></i
+        ></a>
+      </div>
+    </section>
+  </body>
+</html>
